@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Laila:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Halant&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karma&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.blog-title {
+  font-family: "Gentium Book Basic", serif;
+}
+
+.book-style {
+  font-family: "Gentium Book Basic", serif;
+}
+
+.nav-menu {
+  font-size: 12px;
+  font-size: 0.875rem;
+}
+
+.subtitle {
+  font-size: 16 px;
+  font-size: 1rem;
+}
+
+.header-border {
+  border-top-color: #0da688;
+  border-top-width: medium;
+}
+
+.sj-green {
+  color: #076351;
+}
+
+.sj-green-hover {
+  color: #053f33;
+}
+
+.bg-sj-green {
+  background-color: #076351;
+}
+
+.bg-sj-gray {
+  background-color: #efefef;
+} 
+
+.kg-width-wide {
+
+}
+
+.kg-width-full {
+
+}
+
+.kg-gallery-container {
+
+}
+
+.kg-gallery-row {
+
+}
+
+.kg-gallery-image {
+
+}
+
+.kg-bookmark-card {
+
+}
+
+.kg-bookmark-container {
+
+}
+
+.kg-bookmark-content {
+
+}
+
+.kg-bookmark-title {
+
+}
+
+.kg-bookmark-description {
+
+}
+
+.kg-bookmark-metadata {
+
+}
+
+.kg-bookmark-icon {
+
+}
+
+.kg-bookmark-author {
+
+}
+
+.kg-bookmark-publisher {
+
+}
+
+.kg-bookmark-thumbnail {
+
+}

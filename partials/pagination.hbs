@@ -1,0 +1,9 @@
+<div class="flex flex-row mt-4 justify-between">
+    {{#if next}}
+        <button class="bg-sj-green hover:green-800 text-white font-bold px-4 py-2 rounded-full"><a href="{{page_url
+next}}">Older Posts</a></button>
+    {{/if}}
+    {{#if prev}}
+        <button class="bg-sj-green hover:green-800 text-white font-bold px-4 py-2 rounded-full"><a href="{{page_url prev}}">Newer Posts</a></button>
+    {{/if}}
+</div>
