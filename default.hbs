@@ -11,7 +11,7 @@
 </head>
 
 <body class="h-screen bg-sj-gray">
-<div class="container mx-auto">
+<div class="lg:container lg:mx-auto">
     <div class="flex flex-row justify-between bg-white py-10 px-4 header-border">
         <div class="lato-style font-extrabold text-2xl leading-5 sm:w-3/4">
             <a href="/" class="text-black hover:text-black hover:no-underline">{{@site.title}}</a><br>
@@ -20,17 +20,17 @@
             </span>
         </div>
 
-        <div class="md:flex md:flex-row gap-4 nav-menu hidden md:block lato-style">
+        <div class="flex flex lg:flex lg:flex-row gap-4 nav-menu hidden lg:block lato-style">
             {{> "navigation"}}
         </div>
     </div>
 
     <div class="flex gap-6">
-        <div class="bg-white sm:w-full md:w-3/4 py-10 px-4 mt-6">
+        <div class="bg-white sm:w-full lg:w-3/4 py-10 px-4 mt-6">
             {{{body}}}
         </div>
 
-    <div class="md:flex md:flex-col md:w-1/4 mt-6 hidden md:block">
+    <div class="flex flex-col lg:flex lg:flex-col lg:w-1/4 mt-6 hidden lg:block">
       <div class="bg-white py-10 px-6 text-4xl sj-green">
         <div class="flex flex-row justify-between">
         <a href="https://twitter.com/IshSookun"><i class="fab fa-twitter hover:text-blue-500 btn-animate"></i></a>
