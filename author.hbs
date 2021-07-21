@@ -1,0 +1,13 @@
+{{!< default}}
+{{#author}}
+    <div class="text-5xl lato-style text-center font-bold">
+        <img class="w-32 rounded-full" src={{profile_image}} />
+        {{name}}<br>
+        {{#if bio}}<span class="text-xl lato-style text-center font-light">{{bio}}</span>{{/if}}
+        <hr class="mt-4 mb-6">
+    </div>
+{{/author}}
+
+<div class="mt-4">
+{{> "loop"}}
+</div>
