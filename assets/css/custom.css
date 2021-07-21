@@ -1,15 +1,95 @@
 @import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Laila:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Halant&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Karma&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@500&display=swap');
+
+p {
+  font-family: "Gentium Book Basic", serif;
+  font-size: 20 px;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-family: "Gentium Book Basic", serif;
+  font-size: 36px;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  margin-bottom: 1.25rem;
+}
+
+h2 {
+  font-family: "Gentium Book Basic", serif;
+  font-size: 36px;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  margin-bottom: 1.25rem;
+}
+
+code {
+    font-family: "Ubuntu Mono";
+    background: none;
+    border: 1px solid #000;
+    border-radius: 5px;
+    line-height: 25px;
+    line-height: 1.5625rem;
+    font-size: 18px;
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
+    padding: 2.5px 4px;
+    padding: 0.15625rem 0.25rem
+}
+
+pre {
+    font-family: "Ubuntu Mono";
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+    overflow-y: hidden;
+    font-size: 18px;
+    line-height: 20px;
+    background: #000;
+    margin-bottom: 1rem;
+    padding: 10px;
+    color: #fff;
+}
+
+blockquote,
+q {
+    quotes: none
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none
+}
+
+blockquote {
+    font-family: 'Gentium Book Basic', 'IBM Plex Serif', sans-serif;
+    font-size: 20px;
+    font-size: 1.25rem;
+    line-height: 1.5
+}
 
 .blog-title {
-  font-family: "Gentium Book Basic", serif;
+  font-family: "Gentium Book Basic", serif, sans-serif;
 }
 
 .book-style {
-  font-family: "Gentium Book Basic", serif;
+  font-family: "Gentium Book Basic", serif, sans-serif;
+}
+
+.lato-style {
+  font-family: "Lato", sans, sans-serif;
+}
+
+.image-caption {
+  font-family: "Fira Mono", monospace, mono, sans, sans-serif;
 }
 
 .nav-menu {
@@ -18,7 +98,7 @@
 }
 
 .subtitle {
-  font-size: 16 px;
+  font-size: 16px;
   font-size: 1rem;
 }
 
@@ -31,6 +111,10 @@
   color: #076351;
 }
 
+.sj-green-border {
+  border-color: #076351;
+}
+
 .sj-green-hover {
   color: #053f33;
 }
@@ -41,6 +125,11 @@
 
 .bg-sj-gray {
   background-color: #efefef;
+}
+
+.btn-animate {
+  -webkit-transition: color 0.5s ease-in;
+  transition: color 0.5s ease-in;
 } 
 
 .kg-width-wide {

@@ -1,12 +1,12 @@
 {{#foreach posts}}
     <div class="text-4xl book-style font-bold">
-        <a href="{{url}}">{{title}}</a></h1>
+        <a href="{{url}}">{{title}}</a>
     </div>
     <div class="text-lg italic book-style mt-2">
         Posted on <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time> {{tags prefix=" on "}}
     </div>
     <div class="text-xl book-style mt-2 mb-6">
-        {{excerpt words="35"}}...
+        {{excerpt}}
     </div>
 {{/foreach}}
 {{#if pagination.prev}}

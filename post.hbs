@@ -1,0 +1,17 @@
+{{!< default}}
+
+{{#post}}
+<div class="text-6xl book-style font-bold">
+        {{title}}
+    </div>
+    <div class="text-lg italic book-style mt-2 mb-4">
+        Posted on <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time> {{tags prefix=" on "}}
+    </div>
+
+    {{#if feature_image}}<div><img class"object-contain md:object-scale-down" src="{{feature_image}}"></div>{{/if}}
+    {{#if feature_image_caption}}<div class="text-base italic text-right image-caption mt-1 mb-4">{{feature_image_caption}}</div>{{/if}}
+
+    <div class="text-xl book-style mt-2 mb-6">
+        {{content}}
+    </div>
+{{/post}}
