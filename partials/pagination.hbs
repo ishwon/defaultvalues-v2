@@ -1,9 +1,8 @@
 <div class="flex flex-row mt-4 justify-between">
-    {{#if next}}
-        <a href="{{page_url
-next}}"><button class="bg-transparent btn-animate sj-green border sj-green-border hover:bg-green-700 hover:text-white hover:border-transparent lato-style font-bold px-4 py-2 rounded-full">Older Posts</button></a>
-    {{/if}}
     {{#if prev}}
         <a href="{{page_url prev}}"><button class="bg-transparent btn-animate sj-green border sj-green-border hover:bg-green-700 hover:text-white hover:border-transparent lato-style font-bold px-4 py-2 rounded-full">Newer Posts</button></a>
+    {{/if}}
+    {{#if next}}
+        <a href="{{page_url next}}"><button class="bg-transparent btn-animate sj-green border sj-green-border hover:bg-green-700 hover:text-white hover:border-transparent lato-style font-bold px-4 py-2 rounded-full">Older Posts</button></a>
     {{/if}}
 </div>
