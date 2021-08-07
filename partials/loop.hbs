@@ -1,11 +1,11 @@
 {{#foreach posts}}
-    <div class="text-4xl lato-style font-extrabold">
+    <div class="text-6xl lg:text-4xl lato-style font-extrabold">
         <a href="{{url}}" class="text-black no-underline hover:text-green-700 hover:no-underline btn-animate">{{title}}</a>
     </div>
-    <div class="text-xl lato-style font-light mt-2">
+    <div class="lato-style font-light mt-4 lg:mt-2 text-4xl lg:text-xl">
         Posted on <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time> {{tags prefix=" on "}}
     </div>
-    <div class="text-2xl book-style font-medium mt-2 mb-6">
+    <div class="text-2xl book-style font-medium mt-4 lg:mt-2 mb-6 text-4xl lg:text-2xl">
         {{excerpt}}
     </div>
 {{/foreach}}
